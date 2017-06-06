@@ -32,6 +32,7 @@
 ![Paste_Image.png](http://upload-images.jianshu.io/upload_images/2384741-50df43b8adb1da56.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 结论说明
+***
 `
 NSString 无论是 重新赋值(=),还是 copy，他们指向的对象的地址 都是相同的，所以NSString 的copy 是浅copy。
 `
@@ -73,6 +74,7 @@ NSString 无论是 重新赋值(=),还是 copy，他们指向的对象的地址 
 ![Paste_Image.png](http://upload-images.jianshu.io/upload_images/2384741-992e9f10e7cbc622.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 结论说明
+***
 `
 1.NSMutableString 赋值(=) ,原对象值改变，赋值后的对象也会改变，指针指向对象的地址 相同。
 2.copy，mutableCopy 原对象值改变 ，copy，mutableCopy 后的值都不会改变，且 指针指向对象的地址不同，是 深 copy。
