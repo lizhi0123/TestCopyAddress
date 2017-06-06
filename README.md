@@ -85,7 +85,7 @@ NSString 自身的值是不变得，copy对象是浅copy(指针对象地址相�
 所以，copy 后的值都是不变的。
 
 ### 后续
-测试代码地址： https://github.com/lizhi0123/TestCopyAddress
+测试代码地址： https://github.com/lizhi0123/TestCopyAddress  </br>
 简书地址： http://www.jianshu.com/p/5af60f3c8d57
 
 
