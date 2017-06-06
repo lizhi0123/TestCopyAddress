@@ -79,7 +79,10 @@ NSString 无论是 重新赋值(=),还是 copy，他们指向的对象的地址 
 1.NSMutableString 赋值(=) ,原对象值改变，赋值后的对象也会改变，指针指向对象的地址 相同。
 2.copy，mutableCopy 原对象值改变 ，copy，mutableCopy 后的值都不会改变，且 指针指向对象的地址不同，是 深 copy。
 `
-
+### 理解
+NSMutableString 自身的值是会变得，所以要进行深copy(指针对象地址改变)， 才能确保copy 后的对象不受原来对象改变的 影响。
+NSString 自身的值是不变得，copy对象是浅copy(指针对象地址相同)，copy后的对象值 也不会改变。
+所以，copy 后的值都是不变的。
 
 ### 后续
 测试代码地址： https://github.com/lizhi0123/TestCopyAddress
